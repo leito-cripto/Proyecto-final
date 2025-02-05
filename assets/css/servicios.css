@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Header */
+/* Encabezado y navegación */
 header {
     background-color: #222;
     padding: 15px 0;
@@ -31,81 +31,57 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Sección de inicio */
-#inicio {
+/* Sección de servicios */
+section#servicios {
     text-align: center;
     padding: 50px 20px;
 }
 
-#inicio h1 {
+section#servicios h1 {
     font-size: 2.5em;
-    color: #222;
-}
-
-#inicio p {
-    font-size: 1.2em;
-}
-
-/* Sección de productos */
-#productos {
-    text-align: center ;
-    padding: 50px 20px;
-    background-color: #fff;
-}
-
-#productos h2 {
-    font-size: 2em;
     margin-bottom: 20px;
     color: #222;
 }
 
-/* Grid de productos */
-.productos-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 5px;
-    max-width: 1000px;
-    margin: 0 auto;
+section#servicios p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
 }
 
-/* Tarjeta de cada producto */
-.producto {
+/* Estilos de los servicios */
+.servicio {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 15px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
 }
 
-.producto:hover {
+.servicio:hover {
     transform: translateY(-5px);
 }
 
-/* Imagen del producto */
-.producto img {
+.servicio img {
     width: 100%;
-    max-width: 150px;
-    border-radius: 5px;
-
-    margin-bottom: 10px;
+    max-width: 400px;
+    border-radius: 10px;
 }
 
-/* Nombre del producto */
-.producto h3 {
-    font-size: 1.3em;
+.servicio h2 {
+    font-size: 1.8em;
+    margin-top: 15px;
     color: #555;
-    margin-bottom: 5px;
 }
 
-/* Precio */
-.producto p {
+.servicio p {
     font-size: 1.1em;
-    font-weight: bold;
-    color: #222;
+    margin-top: 10px;
 }
 
-/* Footer */
+/* Pie de página */
 footer {
     background-color: #222;
     color: #fff;
